@@ -2,22 +2,14 @@ dbt_mi:
   outputs:
     dev:
       type: clickhouse
-<<<<<<< HEAD
-      host: anx-stg1-clickhouse2.anx-staging.cdces.dev
-      port: 9000
-      user: rw1-user
-      password: xxxxxxxxx
-      schema: anx_stg1_mercury
-      database: anx_stg1_mercury
-=======
       host: "{{ env_var('CLICKHOUSE_HOST') }}"
-      port: "{{ env_var('CLICKHOUSE_PORT', '8123') }}"
+      port: 8123
+      #port: "{{ env_var('CLICKHOUSE_PORT', '8123') }}"
       user: "{{ env_var('CLICKHOUSE_USER') }}"
       password: "{{ env_var('CLICKHOUSE_PASSWORD') }}"
-      database: "{{ env_var('CLICKHOUSE_DB', 'default') }}"
+      #database: "{{ env_var('CLICKHOUSE_DB', 'default') }}"
       #secure: true
       schema: ds_internal
->>>>>>> e454643 (Added new model for benchmark)
 
   target: dev
 
@@ -25,14 +17,6 @@ mi_profile:
     outputs:
       dev:
        type: sqlserver
-<<<<<<< HEAD
-       host: mi-clickhouse.ch4kyq7plgt4.us-east-1.rds.amazonaws.com
-       port: 1433
-       user: clickhousemi
-       password: xxxxx
-       schema: dbo
-       database: xyz_dms_cust_986
-=======
        host: "{{ env_var('SQLSERVER_HOST') }}"
        port: "{{ env_var('SQLSERVER_PORT', '1433') }}"
        user: "{{ env_var('SQLSERVER_USER') }}"
@@ -40,7 +24,6 @@ mi_profile:
        database: "{{ env_var('SQLSERVER_DB', 'master') }}"
        schema: "{{ env_var('SQLSERVER_SCHEMA', 'dbo') }}"
        secure: true
->>>>>>> e454643 (Added new model for benchmark)
        driver: "ODBC Driver 18 for SQL Server"
        encrypt: Yes
        trust_cert: Yes

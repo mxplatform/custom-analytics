@@ -12,7 +12,7 @@ This repository contains custom analytics tools and scripts for internal data an
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/mxplatform/Custom-Analytics.git)
    ```
 
 2. Install dependencies (if any):

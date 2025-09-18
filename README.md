@@ -6,7 +6,8 @@ This repository contains custom analytics tools and scripts for internal data an
 
 - `dbt_benchmark/`  
   Contains benchmarking scripts and resources for dbt projects.
-
+- schema/
+  Contains the benchmark table schema for review
 
 ## Getting Started
 

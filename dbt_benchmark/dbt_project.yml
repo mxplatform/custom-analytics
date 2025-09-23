@@ -9,6 +9,13 @@ version: '1.0.0'
 #profile: 'mi_profile'
 profile: 'dbt_mi'
 
+vars:
+  src_clickhouse_schema: clickhouse
+  src_clickhouse_table: msg_totals_bysenddate_v
+  src_internal_schema: ds_internal
+  src_internal_table: customer_metadata
+
+
 # These configurations specify where dbt should look for different types of files.
 # The `model-paths` config, for example, states that models in this project can be
 # found in the "models/" directory. You probably won't need to change these!

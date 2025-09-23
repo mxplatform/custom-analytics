@@ -4,6 +4,7 @@
 
 WITH raw_data AS (
 SELECT
+    cm.brand,
     cm.geo as region,
     cm.Country,
     cm.industry as vertical,
@@ -26,19 +27,24 @@ SELECT
     0 AS order_count,
     0 as grow_views,
     0 AS grow_conversion_count
-FROM {{ source('clickhouse', 'msg_totals_bysenddate_v') }} v
-LEFT JOIN {{ source('ds_internal', 'customer_metadata') }} cm ON v.account_id = cm.pls_org_id
+FROM {{ source(
+        var('src_clickhouse_schema', 'clickhouse'),
+        var('src_clickhouse_table', 'msg_totals_bysenddate_v')
+     ) }} v
+LEFT JOIN {{ source(
+              var('src_internal_schema', 'ds_internal'),
+              var('src_internal_table', 'customer_metadata')
+           ) }} cm ON v.account_id = cm.pls_org_id
 WHERE domain = 'event.campaignactivity'
-and platform = 'msg:na'
+and ('{{ account_id }}' IS NULL OR '{{ account_id }}' = '' OR v.account_id = '{{ account_id }}')  -- Filter by account_id if provided
 and v.account_id = isnull('{{ account_id }}',v.account_id)  -- Filter by account_id if provided
 and send_date >= cast('{{ start_date }}' as date) and send_date < cast('{{ end_date }}' as date)
 GROUP BY
     cm.brand,
     cm.geo,
-    cm.Country,
+    vertical,
     cm.industry,
     toDate(toStartOfMonth(send_date)),
-    v.campaign_type,
     v.campaign_type,
     v.channel 
 )

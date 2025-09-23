@@ -2,13 +2,13 @@ version: 2
 
 sources:
   - name: clickhouse
-    database: anx_stg1_mercury
+    database: {{ var('src_clickhouse_schema', 'default') }}
     tables:
-      - name: msg_totals_bysenddate_v
+      - name: {{ var('src_clickhouse_table', 'default_table') }}
         +enabled: "{{ target.name == 'dev' }}"
 
   - name: ds_internal
-    database: ds_internal
+    database: {{ var('src_internal_schema', 'default') }}
     tables:
-      - name: customer_metadata
+      - name: {{ var('src_internal_table', 'default_table') }}
         +enabled: "{{ target.name == 'dev' }}"

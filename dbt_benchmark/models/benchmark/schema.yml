@@ -4,11 +4,11 @@ sources:
   - name: clickhouse
     database: anx_stg1_mercury
     tables:
-      - name: msg_totals_bysenddate_v1
+      - name: msg_totals_bysenddate_v
         +enabled: "{{ target.name == 'dev' }}"
 
   - name: ds_internal
     database: ds_internal
     tables:
-      - name: customer_metadata1
+      - name: customer_metadata
         +enabled: "{{ target.name == 'dev' }}"

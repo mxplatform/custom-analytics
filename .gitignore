@@ -1,0 +1,9 @@
+dbt_benchmark/target/
+dbt_benchmark/dbt_packages/
+dbt_benchmark/logs/
+dbt_benchmark/dbt-venv/
+dbt_benchmark/.env
+.DS_Store
+dbt_benchmark/.DS_Store
+dbt_benchmark/.user.yml
+dbt_benchmark/models/.DS_Store

@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: clickhouse
+    database: anx_stg1_mercury
+    tables:
+      - name: mi_subscribers_all
+        columns:
+          - name: pk_g4_subscribers_id
+        +enabled: "{{ target.name == 'dev' }}"
+      - name: event
+        +enabled: "{{ target.name == 'dev' }}"

@@ -1,0 +1,15 @@
+
+version: 2
+
+sources:
+  - name: anx_qa_r_mercury
+    database: anx_qa_r_mercury
+    tables:
+      - name: g4_subscribers_new
+        columns:
+          - name: pk_g4_subscribers_id
+            tests:
+              - unique
+              - not_null
+        +enabled: "{{ target.name == 'dev' }}"
+      - name: event

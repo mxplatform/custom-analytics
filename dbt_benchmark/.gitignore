@@ -3,3 +3,7 @@ dbt_packages/
 logs/
 dbt-venv/
 .env
+.DS_Store
+models/benchmark/
+models/clickhouse_profile/
+macros/insert_benchmark.sql

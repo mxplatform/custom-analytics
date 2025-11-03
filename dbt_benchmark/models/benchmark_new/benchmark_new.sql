@@ -26,21 +26,20 @@ SELECT
     0 AS order_count,
     0 as grow_views,
     0 AS grow_conversion_count
-FROM {{ source('clickhouse', 'msg_totals_bysenddate_v') }} v
+FROM {{ source('clickhouse_stg', 'msg_totals_bysenddate_v') }} v
 LEFT JOIN {{ source('ds_internal', 'customer_metadata') }} cm ON v.account_id = cm.pls_org_id
 --ds_internal.customer_metadata cm  ON v.account_id = cm.pls_org_id
 WHERE --domain = 'event.campaignactivity'
  --and platform = 'msg:na'
     --and v.account_id = '986'
  --and v.send_date > '2025-01-01' AND '2025-01-31'  -- Filter by a relevant date range
-  send_date >= '{{ var("start_date", "{{ metadata.start_date  }}") }}') AND (send_date < '{{ var("end_date", "{{ metadata.end_date  }}") }}') 
+  (send_date >= '{{ var("start_date", "{{ metadata.start_date  }}") }}') AND (send_date < '{{ var("end_date", "{{ metadata.end_date  }}") }}')
 GROUP BY
     cm.brand,
     cm.geo,
     cm.Country,
     cm.industry,
     toDate(toStartOfMonth(send_date)),
-    v.campaign_type,
     v.campaign_type,
     v.channel 
 )

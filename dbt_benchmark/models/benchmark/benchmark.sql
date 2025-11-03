@@ -32,7 +32,7 @@ SELECT
     0 AS revenue,  
     0 AS order_count,  
     0 AS grow_conversion_count
-FROM {{ source('clickhouse', 'msg_totals_bysenddate_v') }} v --anx_stg1_mercury.msg_totals_bysenddate v
+FROM {{ source('clickhouse_stg', 'msg_totals_bysenddate_v') }} v --anx_stg1_mercury.msg_totals_bysenddate v
 LEFT JOIN {{ source('ds_internal', 'customer_metadata') }} cm ON v.account_id = cm.pls_org_id
 --ds_internal.customer_metadata cm  ON v.account_id = cm.pls_org_id
 WHERE --domain = 'event.campaignactivity'

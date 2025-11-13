@@ -1,11 +1,17 @@
 version: 2
 
 sources:
-  - name: clickhouse
+  - name: clickhouse_stg
     database: anx_stg1_mercury
     tables:
       - name: msg_totals_bysenddate_v
         +enabled: "{{ target.name == 'dev' }}"
+
+  - name: clickhouse_prod
+    database: anx_us_mercury
+    tables:
+      - name: msg_totals_bysenddate_v
+        +enabled: "{{ target.name == 'prod' }}"
 
   - name: ds_internal
     database: ds_internal

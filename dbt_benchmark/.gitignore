@@ -1,9 +1,9 @@
 target/
 dbt_packages/
-logs/
+dbt_benchmark/logs/
 dbt-venv/
 .env
 .DS_Store
-models/benchmark/
-models/clickhouse_profile/
-macros/insert_benchmark.sql
+dbt_benchmark/models/benchmark/
+dbt_benchmark/models/clickhouse_profile/
+dbt_benchmark/macros/insert_benchmark.sql

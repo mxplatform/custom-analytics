@@ -1,0 +1,1221 @@
+[0m15:11:27.563568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d4f8290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d563150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d5635d0>]}
+
+
+============================== 15:11:27.565881 | 7226201e-2817-40ed-b5ef-d9f760c4b9d1 ==============================
+[0m15:11:27.565881 [info ] [MainThread]: Running with dbt=1.9.0
+[0m15:11:27.566132 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark', 'log_path': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt ', 'send_anonymous_usage_stats': 'True'}
+[0m15:11:27.609861 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7226201e-2817-40ed-b5ef-d9f760c4b9d1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d5f1710>]}
+[0m15:11:27.619600 [debug] [MainThread]: Set downloads directory='/var/folders/w6/2f6xp5hx6tdbnx77_5y_k4z80000gn/T/dbt-downloads-5c3btxbw'
+[0m15:11:27.619755 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m15:11:27.681052 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m15:11:27.681451 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m15:11:27.708011 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m15:11:27.709803 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m15:11:27.869293 [info ] [MainThread]: Installed from version 1.3.0
+[0m15:11:27.869596 [info ] [MainThread]: Updated version available: 1.3.1
+[0m15:11:27.869787 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '7226201e-2817-40ed-b5ef-d9f760c4b9d1', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c4fc090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d5e1490>]}
+[0m15:11:27.869961 [info ] [MainThread]: 
+[0m15:11:27.870083 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m15:11:27.872196 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.3503847, "process_in_blocks": "0", "process_kernel_time": 0.16273, "process_mem_max_rss": "111116288", "process_out_blocks": "0", "process_user_time": 0.495628}
+[0m15:11:27.872438 [debug] [MainThread]: Command `cli deps` succeeded at 15:11:27.872397 after 0.35 seconds
+[0m15:11:27.872585 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cea0850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fec2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fec310>]}
+[0m15:11:27.872743 [debug] [MainThread]: Flushing usage events
+[0m15:11:27.931916 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:23:02.332776 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bbf2810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bc6a910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bc4acd0>]}
+
+
+============================== 15:23:02.335660 | 34b12232-20dc-4144-8d49-6e7719e8ccd5 ==============================
+[0m15:23:02.335660 [info ] [MainThread]: Running with dbt=1.9.0
+[0m15:23:02.335978 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt ', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:23:02.386192 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '34b12232-20dc-4144-8d49-6e7719e8ccd5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bbeb210>]}
+[0m15:23:02.425357 [debug] [MainThread]: Set downloads directory='/var/folders/w6/2f6xp5hx6tdbnx77_5y_k4z80000gn/T/dbt-downloads-599z_k8o'
+[0m15:23:02.425609 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m15:23:02.490507 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m15:23:02.490936 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m15:23:02.529079 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m15:23:02.530971 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m15:23:02.828626 [info ] [MainThread]: Installed from version 1.3.0
+[0m15:23:02.828842 [info ] [MainThread]: Updated version available: 1.3.1
+[0m15:23:02.829003 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '34b12232-20dc-4144-8d49-6e7719e8ccd5', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bcf09d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bcd68d0>]}
+[0m15:23:02.829288 [info ] [MainThread]: 
+[0m15:23:02.829454 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m15:23:02.831604 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.5420707, "process_in_blocks": "0", "process_kernel_time": 0.221702, "process_mem_max_rss": "113147904", "process_out_blocks": "0", "process_user_time": 0.592016}
+[0m15:23:02.831829 [debug] [MainThread]: Command `cli deps` succeeded at 15:23:02.831785 after 0.54 seconds
+[0m15:23:02.831959 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a563390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10266c410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10266c550>]}
+[0m15:23:02.832086 [debug] [MainThread]: Flushing usage events
+[0m15:23:02.917639 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:41:15.311576 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078f8150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a53a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a52cd0>]}
+
+
+============================== 09:41:15.314435 | d2a9fe2a-218e-4be6-9a88-a1eeaab9255b ==============================
+[0m09:41:15.314435 [info ] [MainThread]: Running with dbt=1.9.0
+[0m09:41:15.314745 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/logs', 'profiles_dir': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt build -s benchmark_new', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:41:15.318037 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'CLICKHOUSE_HOST'
+[0m09:41:15.319606 [debug] [MainThread]: Resource report: {"command_name": "build", "command_success": false, "command_wall_clock_time": 0.12591513, "process_in_blocks": "0", "process_kernel_time": 0.126394, "process_mem_max_rss": "104431616", "process_out_blocks": "0", "process_user_time": 0.436546}
+[0m09:41:15.319852 [debug] [MainThread]: Command `dbt build` failed at 09:41:15.319799 after 0.13 seconds
+[0m09:41:15.320044 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1006de6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078ec850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078ec250>]}
+[0m09:41:15.320220 [debug] [MainThread]: Flushing usage events
+[0m09:41:15.378750 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:42:53.259954 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1216f86d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x121780690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12175f310>]}
+
+
+============================== 09:42:53.262066 | 0bccc5fb-6ab6-419d-90d3-2185c5458083 ==============================
+[0m09:42:53.262066 [info ] [MainThread]: Running with dbt=1.9.0
+[0m09:42:53.262315 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt build -s benchmark_new', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m09:42:53.341871 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0bccc5fb-6ab6-419d-90d3-2185c5458083', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x121780550>]}
+[0m09:42:53.358946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0bccc5fb-6ab6-419d-90d3-2185c5458083', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1211b3e50>]}
+[0m09:42:53.359465 [info ] [MainThread]: Registered adapter: clickhouse=1.9.2
+[0m09:42:53.410676 [debug] [MainThread]: checksum: c99e828bba267739642b5a3ce85f17518764ea526e0e6c4fdc649171c1a66bff, vars: {}, profile: , target: , version: 1.9.0
+[0m09:42:53.411219 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m09:42:53.411385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '0bccc5fb-6ab6-419d-90d3-2185c5458083', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122133bd0>]}
+[0m09:42:53.927517 [error] [MainThread]: Encountered an error:
+Compilation Error
+  dbt found two sources with the name "clickhouse_msg_totals_bysenddate_v".
+  
+  Since these resources have the same name, dbt will be unable to find the correct resource
+  when looking for source("clickhouse", "msg_totals_bysenddate_v").
+  
+  To fix this, change the name of one of these resources:
+  - source.dbt_mi.clickhouse.msg_totals_bysenddate_v (models/benchmark_new/schema.yml)
+  - source.dbt_mi.clickhouse.msg_totals_bysenddate_v (models/benchmark_new/schema.yml)
+[0m09:42:53.929182 [debug] [MainThread]: Resource report: {"command_name": "build", "command_success": false, "command_wall_clock_time": 0.70740944, "process_in_blocks": "0", "process_kernel_time": 0.178434, "process_mem_max_rss": "124010496", "process_out_blocks": "0", "process_user_time": 1.016422}
+[0m09:42:53.929356 [debug] [MainThread]: Command `dbt build` failed at 09:42:53.929324 after 0.71 seconds
+[0m09:42:53.929498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1022d9950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12261da50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x121780910>]}
+[0m09:42:53.929622 [debug] [MainThread]: Flushing usage events
+[0m09:42:54.044810 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:43:41.721806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119df9890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119e5fa90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119e5ff90>]}
+
+
+============================== 09:43:41.724796 | 287055c1-3533-4066-af6b-6a8893d0471e ==============================
+[0m09:43:41.724796 [info ] [MainThread]: Running with dbt=1.9.0
+[0m09:43:41.725122 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt build -s benchmark_new', 'send_anonymous_usage_stats': 'True'}
+[0m09:43:41.818669 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '287055c1-3533-4066-af6b-6a8893d0471e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119f58250>]}
+[0m09:43:41.836585 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '287055c1-3533-4066-af6b-6a8893d0471e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105de45d0>]}
+[0m09:43:41.837260 [info ] [MainThread]: Registered adapter: clickhouse=1.9.2
+[0m09:43:41.878681 [debug] [MainThread]: checksum: c99e828bba267739642b5a3ce85f17518764ea526e0e6c4fdc649171c1a66bff, vars: {}, profile: , target: , version: 1.9.0
+[0m09:43:41.879246 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m09:43:41.879466 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '287055c1-3533-4066-af6b-6a8893d0471e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105de45d0>]}
+[0m09:43:42.406162 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.dbt_mi.benchmark' (models/benchmark/benchmark.sql) depends on a source named 'clickhouse.msg_totals_bysenddate_v' which was not found
+[0m09:43:42.408978 [debug] [MainThread]: Resource report: {"command_name": "build", "command_success": false, "command_wall_clock_time": 0.73223656, "process_in_blocks": "0", "process_kernel_time": 0.177987, "process_mem_max_rss": "123404288", "process_out_blocks": "0", "process_user_time": 1.040993}
+[0m09:43:42.409152 [debug] [MainThread]: Command `dbt build` failed at 09:43:42.409119 after 0.73 seconds
+[0m09:43:42.409291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100f31a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119e52f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11d1a86d0>]}
+[0m09:43:42.409419 [debug] [MainThread]: Flushing usage events
+[0m09:43:42.477600 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:44:38.226203 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1139fc310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1139fd790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113a5fcd0>]}
+
+
+============================== 09:44:38.228527 | a025414f-e8c0-48b8-935c-40b35ced77e7 ==============================
+[0m09:44:38.228527 [info ] [MainThread]: Running with dbt=1.9.0
+[0m09:44:38.228788 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark', 'log_path': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt build -s benchmark_new', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m09:44:38.308581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a025414f-e8c0-48b8-935c-40b35ced77e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113a9a410>]}
+[0m09:44:38.326554 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a025414f-e8c0-48b8-935c-40b35ced77e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110ce4550>]}
+[0m09:44:38.327240 [info ] [MainThread]: Registered adapter: clickhouse=1.9.2
+[0m09:44:38.366897 [debug] [MainThread]: checksum: c99e828bba267739642b5a3ce85f17518764ea526e0e6c4fdc649171c1a66bff, vars: {}, profile: , target: , version: 1.9.0
+[0m09:44:38.367464 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m09:44:38.367637 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a025414f-e8c0-48b8-935c-40b35ced77e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113f78a10>]}
+[0m09:44:38.987052 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a025414f-e8c0-48b8-935c-40b35ced77e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113c53510>]}
+[0m09:44:39.022797 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/manifest.json
+[0m09:44:39.030812 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/semantic_manifest.json
+[0m09:44:39.049424 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a025414f-e8c0-48b8-935c-40b35ced77e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x117377ed0>]}
+[0m09:44:39.049693 [info ] [MainThread]: Found 7 models, 6 data tests, 9 sources, 594 macros
+[0m09:44:39.050397 [info ] [MainThread]: 
+[0m09:44:39.050542 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m09:44:39.050645 [info ] [MainThread]: 
+[0m09:44:39.050829 [debug] [MainThread]: Acquiring new clickhouse connection 'master'
+[0m09:44:39.051169 [debug] [ThreadPool]: Acquiring new clickhouse connection 'list_'
+[0m09:44:39.054846 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:44:39.606011 [debug] [ThreadPool]: dbt_clickhouse adapter: On list_: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "connection_name": "list_"} */
+
+    select name from system.databases
+  ...
+[0m09:44:39.625930 [debug] [ThreadPool]: dbt_clickhouse adapter: SQL status: OK in 0.02 seconds
+[0m09:44:39.640586 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_, now list__ds_internal)
+[0m09:44:39.643537 [debug] [ThreadPool]: dbt_clickhouse adapter: On list__ds_internal: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "connection_name": "list__ds_internal"} */
+select
+      t.name as name,
+      t.database as schema,
+      multiIf(
+        engine in ('MaterializedView', 'View'), 'view',
+        engine = 'Dictionary', 'dictionary',
+        'table'
+      ) as type,
+      db.engine as db_engine,0 as is_on_cluster
+          from system.tables as t join system.databases as db on t.database = db.name
+        where schema = 'ds_internal'
+      
+
+  ...
+[0m09:44:39.678607 [debug] [ThreadPool]: dbt_clickhouse adapter: SQL status: OK in 0.03 seconds
+[0m09:44:39.679575 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a025414f-e8c0-48b8-935c-40b35ced77e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1170ada10>]}
+[0m09:44:39.680268 [debug] [Thread-1 (]: Began running node model.dbt_mi.benchmark_new
+[0m09:44:39.680485 [info ] [Thread-1 (]: 1 of 1 START sql table model `ds_internal`.`benchmark_new` ..................... [RUN]
+[0m09:44:39.680666 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list__ds_internal, now model.dbt_mi.benchmark_new)
+[0m09:44:39.680808 [debug] [Thread-1 (]: Began compiling node model.dbt_mi.benchmark_new
+[0m09:44:39.684173 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_mi.benchmark_new"
+[0m09:44:39.684977 [debug] [Thread-1 (]: Began executing node model.dbt_mi.benchmark_new
+[0m09:44:39.710941 [debug] [Thread-1 (]: dbt_clickhouse adapter: On model.dbt_mi.benchmark_new: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "node_id": "model.dbt_mi.benchmark_new"} */
+
+            
+
+    
+        create table `ds_internal`.`benchmark_new__dbt_backup`
+        
+  
+        
+  engine = MergeTree()
+        
+      order by (tuple())
+        
+        
+        
+        
+                    -- end_of_sql
+                    SETTINGS  replicated_deduplication_window=0
+
+                    
+            empty
+          as (
+            
+
+WITH raw_data AS (
+SELECT
+    cm.geo as region,
+    cm.Country,
+    cm.industry as vertical,
+    toDate(toStartOfMonth(send_date)) as time_period,
+    v.campaign_type,
+    'Regular' as sto_type,
+    v.channel as channel_type,
+    sumIf(count, (event = 'message_send')) AS sends, 
+    sumIf(count, ((event = 'message_soft_bounce') OR (event = 'message_hard_bounce'))) AS bounces,
+    sumIf(count, (event = 'message_soft_bounce')) AS unique_soft_bounces,
+    sumIf(count, (event = 'message_hard_bounce')) AS unique_hard_bounces,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email')) AS unique_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_real_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_precached_opens,
+    sumIf(count, (event = 'message_click')) AS total_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email')) AS unique_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (NOT is_machine)) AS unique_human_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (is_machine)) AS unique_bot_clicks,
+    0 AS revenue,  
+    0 AS order_count,
+    0 as grow_views,
+    0 AS grow_conversion_count
+FROM `anx_stg1_mercury`.`msg_totals_bysenddate_v` v
+LEFT JOIN `ds_internal`.`customer_metadata` cm ON v.account_id = cm.pls_org_id
+--ds_internal.customer_metadata cm  ON v.account_id = cm.pls_org_id
+WHERE --domain = 'event.campaignactivity'
+ --and platform = 'msg:na'
+    --and v.account_id = '986'
+ --and v.send_date > '2025-01-01' AND '2025-01-31'  -- Filter by a relevant date range
+  send_date >= '{{ metadata.start_date  }}') AND (send_date < '{{ metadata.end_date  }}') 
+GROUP BY
+    cm.brand,
+    cm.geo,
+    cm.Country,
+    cm.industry,
+    toDate(toStartOfMonth(send_date)),
+    v.campaign_type,
+    v.campaign_type,
+    v.channel 
+)
+
+SELECT * FROM raw_data
+          )
+        
+        ...
+[0m09:44:39.735872 [debug] [Thread-1 (]: dbt_clickhouse adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "node_id": "model.dbt_mi.benchmark_new"} */
+
+            
+
+    
+        create table `ds_internal`.`benchmark_new__dbt_backup`
+        
+  
+        
+  engine = MergeTree()
+        
+      order by (tuple())
+        
+        
+        
+        
+                    -- end_of_sql
+                    SETTINGS  replicated_deduplication_window=0
+
+                    
+            empty
+          as (
+            
+
+WITH raw_data AS (
+SELECT
+    cm.geo as region,
+    cm.Country,
+    cm.industry as vertical,
+    toDate(toStartOfMonth(send_date)) as time_period,
+    v.campaign_type,
+    'Regular' as sto_type,
+    v.channel as channel_type,
+    sumIf(count, (event = 'message_send')) AS sends, 
+    sumIf(count, ((event = 'message_soft_bounce') OR (event = 'message_hard_bounce'))) AS bounces,
+    sumIf(count, (event = 'message_soft_bounce')) AS unique_soft_bounces,
+    sumIf(count, (event = 'message_hard_bounce')) AS unique_hard_bounces,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email')) AS unique_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_real_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_precached_opens,
+    sumIf(count, (event = 'message_click')) AS total_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email')) AS unique_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (NOT is_machine)) AS unique_human_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (is_machine)) AS unique_bot_clicks,
+    0 AS revenue,  
+    0 AS order_count,
+    0 as grow_views,
+    0 AS grow_conversion_count
+FROM `anx_stg1_mercury`.`msg_totals_bysenddate_v` v
+LEFT JOIN `ds_internal`.`customer_metadata` cm ON v.account_id = cm.pls_org_id
+--ds_internal.customer_metadata cm  ON v.account_id = cm.pls_org_id
+WHERE --domain = 'event.campaignactivity'
+ --and platform = 'msg:na'
+    --and v.account_id = '986'
+ --and v.send_date > '2025-01-01' AND '2025-01-31'  -- Filter by a relevant date range
+  send_date >= '{{ metadata.start_date  }}') AND (send_date < '{{ metadata.end_date  }}') 
+GROUP BY
+    cm.brand,
+    cm.geo,
+    cm.Country,
+    cm.industry,
+    toDate(toStartOfMonth(send_date)),
+    v.campaign_type,
+    v.campaign_type,
+    v.channel 
+)
+
+SELECT * FROM raw_data
+          )
+        
+        
+[0m09:44:39.741223 [debug] [Thread-1 (]: Database Error in model benchmark_new (models/benchmark_new/benchmark_new.sql)
+  HTTPDriver for http://anx-stg1-clickhouse2.anx-staging.cdces.dev:8123 received ClickHouse error code 62
+   Code: 62. DB::Exception: Syntax error: failed at position 2547 ()) (line 69, col 11): )
+          
+          . Unmatched parentheses: ). (SYNTAX_ERROR) (version 25.3.6.56 (official build))
+[0m09:44:39.741903 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a025414f-e8c0-48b8-935c-40b35ced77e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1312184d0>]}
+[0m09:44:39.742166 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model `ds_internal`.`benchmark_new` ............ [[31mERROR[0m in 0.06s]
+[0m09:44:39.742382 [debug] [Thread-1 (]: Finished running node model.dbt_mi.benchmark_new
+[0m09:44:39.742589 [debug] [Thread-4 (]: Marking all children of 'model.dbt_mi.benchmark_new' to be skipped because of status 'error'.  Reason: Database Error in model benchmark_new (models/benchmark_new/benchmark_new.sql)
+  HTTPDriver for http://anx-stg1-clickhouse2.anx-staging.cdces.dev:8123 received ClickHouse error code 62
+   Code: 62. DB::Exception: Syntax error: failed at position 2547 ()) (line 69, col 11): )
+          
+          . Unmatched parentheses: ). (SYNTAX_ERROR) (version 25.3.6.56 (official build)).
+[0m09:44:39.743202 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:44:39.743345 [debug] [MainThread]: Connection 'model.dbt_mi.benchmark_new' was left open.
+[0m09:44:39.743461 [debug] [MainThread]: On model.dbt_mi.benchmark_new: Close
+[0m09:44:39.743601 [info ] [MainThread]: 
+[0m09:44:39.743717 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.69 seconds (0.69s).
+[0m09:44:39.743953 [debug] [MainThread]: Command end result
+[0m09:44:39.786988 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/manifest.json
+[0m09:44:39.787978 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/semantic_manifest.json
+[0m09:44:39.790251 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/run_results.json
+[0m09:44:39.790388 [info ] [MainThread]: 
+[0m09:44:39.790544 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m09:44:39.790659 [info ] [MainThread]: 
+[0m09:44:39.790794 [error] [MainThread]:   Database Error in model benchmark_new (models/benchmark_new/benchmark_new.sql)
+  HTTPDriver for http://anx-stg1-clickhouse2.anx-staging.cdces.dev:8123 received ClickHouse error code 62
+   Code: 62. DB::Exception: Syntax error: failed at position 2547 ()) (line 69, col 11): )
+          
+          . Unmatched parentheses: ). (SYNTAX_ERROR) (version 25.3.6.56 (official build))
+[0m09:44:39.790901 [info ] [MainThread]: 
+[0m09:44:39.791015 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m09:44:39.792724 [debug] [MainThread]: Resource report: {"command_name": "build", "command_success": false, "command_wall_clock_time": 1.6003811, "process_in_blocks": "0", "process_kernel_time": 0.221696, "process_mem_max_rss": "139182080", "process_out_blocks": "0", "process_user_time": 1.324094}
+[0m09:44:39.792908 [debug] [MainThread]: Command `dbt build` failed at 09:44:39.792876 after 1.60 seconds
+[0m09:44:39.793066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f75a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f70390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11748f1d0>]}
+[0m09:44:39.793202 [debug] [MainThread]: Flushing usage events
+[0m09:44:39.872832 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:45:58.968184 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d96110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109444d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1094453d0>]}
+
+
+============================== 09:45:58.969798 | d83109b2-8e96-4dd1-a4f9-70afb6bb6302 ==============================
+[0m09:45:58.969798 [info ] [MainThread]: Running with dbt=1.9.0
+[0m09:45:58.970058 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark', 'log_path': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt build -s benchmark_new --vars {"org_id": "190","start_date": "2025-09-01", "end_date":"2025-09-08"}', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:45:59.044734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd83109b2-8e96-4dd1-a4f9-70afb6bb6302', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10881a2d0>]}
+[0m09:45:59.061896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd83109b2-8e96-4dd1-a4f9-70afb6bb6302', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109614850>]}
+[0m09:45:59.062374 [info ] [MainThread]: Registered adapter: clickhouse=1.9.2
+[0m09:45:59.098279 [debug] [MainThread]: checksum: 074a73aba3e919a983f531e4e8e5da33d7b1baee5d36a3e533fbde2f736e6acc, vars: {'end_date': '2025-09-08', 'org_id': '190', 'start_date': '2025-09-01'}, profile: , target: , version: 1.9.0
+[0m09:45:59.134656 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m09:45:59.134924 [debug] [MainThread]: previous checksum: 074a73aba3e919a983f531e4e8e5da33d7b1baee5d36a3e533fbde2f736e6acc, current checksum: c99e828bba267739642b5a3ce85f17518764ea526e0e6c4fdc649171c1a66bff
+[0m09:45:59.135064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'd83109b2-8e96-4dd1-a4f9-70afb6bb6302', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1088acad0>]}
+[0m09:45:59.640971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd83109b2-8e96-4dd1-a4f9-70afb6bb6302', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109a20990>]}
+[0m09:45:59.669529 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/manifest.json
+[0m09:45:59.674202 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/semantic_manifest.json
+[0m09:45:59.684884 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd83109b2-8e96-4dd1-a4f9-70afb6bb6302', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109ecb910>]}
+[0m09:45:59.685069 [info ] [MainThread]: Found 7 models, 6 data tests, 9 sources, 594 macros
+[0m09:45:59.685725 [info ] [MainThread]: 
+[0m09:45:59.685864 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m09:45:59.685964 [info ] [MainThread]: 
+[0m09:45:59.686134 [debug] [MainThread]: Acquiring new clickhouse connection 'master'
+[0m09:45:59.686464 [debug] [ThreadPool]: Acquiring new clickhouse connection 'list_'
+[0m09:45:59.689888 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:46:00.041253 [debug] [ThreadPool]: dbt_clickhouse adapter: On list_: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "connection_name": "list_"} */
+
+    select name from system.databases
+  ...
+[0m09:46:00.081139 [debug] [ThreadPool]: dbt_clickhouse adapter: SQL status: OK in 0.04 seconds
+[0m09:46:00.103932 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_, now list__ds_internal)
+[0m09:46:00.141264 [debug] [ThreadPool]: dbt_clickhouse adapter: On list__ds_internal: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "connection_name": "list__ds_internal"} */
+select
+      t.name as name,
+      t.database as schema,
+      multiIf(
+        engine in ('MaterializedView', 'View'), 'view',
+        engine = 'Dictionary', 'dictionary',
+        'table'
+      ) as type,
+      db.engine as db_engine,0 as is_on_cluster
+          from system.tables as t join system.databases as db on t.database = db.name
+        where schema = 'ds_internal'
+      
+
+  ...
+[0m09:46:00.167376 [debug] [ThreadPool]: dbt_clickhouse adapter: SQL status: OK in 0.03 seconds
+[0m09:46:00.168448 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd83109b2-8e96-4dd1-a4f9-70afb6bb6302', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109f0bf90>]}
+[0m09:46:00.169177 [debug] [Thread-1 (]: Began running node model.dbt_mi.benchmark_new
+[0m09:46:00.169423 [info ] [Thread-1 (]: 1 of 1 START sql table model `ds_internal`.`benchmark_new` ..................... [RUN]
+[0m09:46:00.169641 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list__ds_internal, now model.dbt_mi.benchmark_new)
+[0m09:46:00.169799 [debug] [Thread-1 (]: Began compiling node model.dbt_mi.benchmark_new
+[0m09:46:00.173807 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_mi.benchmark_new"
+[0m09:46:00.174353 [debug] [Thread-1 (]: Began executing node model.dbt_mi.benchmark_new
+[0m09:46:00.196415 [debug] [Thread-1 (]: dbt_clickhouse adapter: On model.dbt_mi.benchmark_new: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "node_id": "model.dbt_mi.benchmark_new"} */
+
+            
+
+    
+        create table `ds_internal`.`benchmark_new__dbt_backup`
+        
+  
+        
+  engine = MergeTree()
+        
+      order by (tuple())
+        
+        
+        
+        
+                    -- end_of_sql
+                    SETTINGS  replicated_deduplication_window=0
+
+                    
+            empty
+          as (
+            
+
+WITH raw_data AS (
+SELECT
+    cm.geo as region,
+    cm.Country,
+    cm.industry as vertical,
+    toDate(toStartOfMonth(send_date)) as time_period,
+    v.campaign_type,
+    'Regular' as sto_type,
+    v.channel as channel_type,
+    sumIf(count, (event = 'message_send')) AS sends, 
+    sumIf(count, ((event = 'message_soft_bounce') OR (event = 'message_hard_bounce'))) AS bounces,
+    sumIf(count, (event = 'message_soft_bounce')) AS unique_soft_bounces,
+    sumIf(count, (event = 'message_hard_bounce')) AS unique_hard_bounces,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email')) AS unique_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_real_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_precached_opens,
+    sumIf(count, (event = 'message_click')) AS total_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email')) AS unique_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (NOT is_machine)) AS unique_human_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (is_machine)) AS unique_bot_clicks,
+    0 AS revenue,  
+    0 AS order_count,
+    0 as grow_views,
+    0 AS grow_conversion_count
+FROM `anx_stg1_mercury`.`msg_totals_bysenddate_v` v
+LEFT JOIN `ds_internal`.`customer_metadata` cm ON v.account_id = cm.pls_org_id
+--ds_internal.customer_metadata cm  ON v.account_id = cm.pls_org_id
+WHERE --domain = 'event.campaignactivity'
+ --and platform = 'msg:na'
+    --and v.account_id = '986'
+ --and v.send_date > '2025-01-01' AND '2025-01-31'  -- Filter by a relevant date range
+  send_date >= '2025-09-01') AND (send_date < '2025-09-08') 
+GROUP BY
+    cm.brand,
+    cm.geo,
+    cm.Country,
+    cm.industry,
+    toDate(toStartOfMonth(send_date)),
+    v.campaign_type,
+    v.campaign_type,
+    v.channel 
+)
+
+SELECT * FROM raw_data
+          )
+        
+        ...
+[0m09:46:00.217062 [debug] [Thread-1 (]: dbt_clickhouse adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "node_id": "model.dbt_mi.benchmark_new"} */
+
+            
+
+    
+        create table `ds_internal`.`benchmark_new__dbt_backup`
+        
+  
+        
+  engine = MergeTree()
+        
+      order by (tuple())
+        
+        
+        
+        
+                    -- end_of_sql
+                    SETTINGS  replicated_deduplication_window=0
+
+                    
+            empty
+          as (
+            
+
+WITH raw_data AS (
+SELECT
+    cm.geo as region,
+    cm.Country,
+    cm.industry as vertical,
+    toDate(toStartOfMonth(send_date)) as time_period,
+    v.campaign_type,
+    'Regular' as sto_type,
+    v.channel as channel_type,
+    sumIf(count, (event = 'message_send')) AS sends, 
+    sumIf(count, ((event = 'message_soft_bounce') OR (event = 'message_hard_bounce'))) AS bounces,
+    sumIf(count, (event = 'message_soft_bounce')) AS unique_soft_bounces,
+    sumIf(count, (event = 'message_hard_bounce')) AS unique_hard_bounces,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email')) AS unique_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_real_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_precached_opens,
+    sumIf(count, (event = 'message_click')) AS total_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email')) AS unique_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (NOT is_machine)) AS unique_human_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (is_machine)) AS unique_bot_clicks,
+    0 AS revenue,  
+    0 AS order_count,
+    0 as grow_views,
+    0 AS grow_conversion_count
+FROM `anx_stg1_mercury`.`msg_totals_bysenddate_v` v
+LEFT JOIN `ds_internal`.`customer_metadata` cm ON v.account_id = cm.pls_org_id
+--ds_internal.customer_metadata cm  ON v.account_id = cm.pls_org_id
+WHERE --domain = 'event.campaignactivity'
+ --and platform = 'msg:na'
+    --and v.account_id = '986'
+ --and v.send_date > '2025-01-01' AND '2025-01-31'  -- Filter by a relevant date range
+  send_date >= '2025-09-01') AND (send_date < '2025-09-08') 
+GROUP BY
+    cm.brand,
+    cm.geo,
+    cm.Country,
+    cm.industry,
+    toDate(toStartOfMonth(send_date)),
+    v.campaign_type,
+    v.campaign_type,
+    v.channel 
+)
+
+SELECT * FROM raw_data
+          )
+        
+        
+[0m09:46:00.220676 [debug] [Thread-1 (]: Database Error in model benchmark_new (models/benchmark_new/benchmark_new.sql)
+  HTTPDriver for http://anx-stg1-clickhouse2.anx-staging.cdces.dev:8123 received ClickHouse error code 62
+   Code: 62. DB::Exception: Syntax error: failed at position 2517 ()) (line 69, col 11): )
+          
+          . Unmatched parentheses: ). (SYNTAX_ERROR) (version 25.3.6.56 (official build))
+[0m09:46:00.221394 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd83109b2-8e96-4dd1-a4f9-70afb6bb6302', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109bbf8d0>]}
+[0m09:46:00.221720 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model `ds_internal`.`benchmark_new` ............ [[31mERROR[0m in 0.05s]
+[0m09:46:00.221966 [debug] [Thread-1 (]: Finished running node model.dbt_mi.benchmark_new
+[0m09:46:00.222170 [debug] [Thread-4 (]: Marking all children of 'model.dbt_mi.benchmark_new' to be skipped because of status 'error'.  Reason: Database Error in model benchmark_new (models/benchmark_new/benchmark_new.sql)
+  HTTPDriver for http://anx-stg1-clickhouse2.anx-staging.cdces.dev:8123 received ClickHouse error code 62
+   Code: 62. DB::Exception: Syntax error: failed at position 2517 ()) (line 69, col 11): )
+          
+          . Unmatched parentheses: ). (SYNTAX_ERROR) (version 25.3.6.56 (official build)).
+[0m09:46:00.222873 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:46:00.223047 [debug] [MainThread]: Connection 'model.dbt_mi.benchmark_new' was left open.
+[0m09:46:00.223179 [debug] [MainThread]: On model.dbt_mi.benchmark_new: Close
+[0m09:46:00.223327 [info ] [MainThread]: 
+[0m09:46:00.223444 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.54 seconds (0.54s).
+[0m09:46:00.223664 [debug] [MainThread]: Command end result
+[0m09:46:00.237067 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/manifest.json
+[0m09:46:00.238304 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/semantic_manifest.json
+[0m09:46:00.240529 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/run_results.json
+[0m09:46:00.240664 [info ] [MainThread]: 
+[0m09:46:00.240810 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m09:46:00.240920 [info ] [MainThread]: 
+[0m09:46:00.241054 [error] [MainThread]:   Database Error in model benchmark_new (models/benchmark_new/benchmark_new.sql)
+  HTTPDriver for http://anx-stg1-clickhouse2.anx-staging.cdces.dev:8123 received ClickHouse error code 62
+   Code: 62. DB::Exception: Syntax error: failed at position 2517 ()) (line 69, col 11): )
+          
+          . Unmatched parentheses: ). (SYNTAX_ERROR) (version 25.3.6.56 (official build))
+[0m09:46:00.241159 [info ] [MainThread]: 
+[0m09:46:00.241271 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m09:46:00.242565 [debug] [MainThread]: Resource report: {"command_name": "build", "command_success": false, "command_wall_clock_time": 1.3125436, "process_in_blocks": "0", "process_kernel_time": 0.194375, "process_mem_max_rss": "136773632", "process_out_blocks": "0", "process_user_time": 1.190374}
+[0m09:46:00.242735 [debug] [MainThread]: Command `dbt build` failed at 09:46:00.242702 after 1.31 seconds
+[0m09:46:00.242877 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105081b50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10507c310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109ce7f10>]}
+[0m09:46:00.243009 [debug] [MainThread]: Flushing usage events
+[0m09:46:00.316014 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:11:24.949132 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1063fbe10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106459850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106453990>]}
+
+
+============================== 10:11:24.951725 | c29bc799-1b30-4c4a-bda8-d567a29f2730 ==============================
+[0m10:11:24.951725 [info ] [MainThread]: Running with dbt=1.9.0
+[0m10:11:24.951982 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt build -s benchmark_new --vars {"org_id": "190","start_date": "2025-09-01", "end_date":"2025-09-08"}', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:11:25.032995 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c29bc799-1b30-4c4a-bda8-d567a29f2730', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1063ee150>]}
+[0m10:11:25.050096 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c29bc799-1b30-4c4a-bda8-d567a29f2730', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1053e07d0>]}
+[0m10:11:25.050642 [info ] [MainThread]: Registered adapter: clickhouse=1.9.2
+[0m10:11:25.090213 [debug] [MainThread]: checksum: 074a73aba3e919a983f531e4e8e5da33d7b1baee5d36a3e533fbde2f736e6acc, vars: {'end_date': '2025-09-08', 'org_id': '190', 'start_date': '2025-09-01'}, profile: , target: , version: 1.9.0
+[0m10:11:25.172020 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m10:11:25.172328 [debug] [MainThread]: Partial parsing: updated file: dbt_mi://models/benchmark_new/benchmark_new.sql
+[0m10:11:25.253222 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c29bc799-1b30-4c4a-bda8-d567a29f2730', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106705b90>]}
+[0m10:11:25.281899 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/manifest.json
+[0m10:11:25.289066 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/semantic_manifest.json
+[0m10:11:25.305883 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c29bc799-1b30-4c4a-bda8-d567a29f2730', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11866bb10>]}
+[0m10:11:25.306087 [info ] [MainThread]: Found 7 models, 6 data tests, 9 sources, 594 macros
+[0m10:11:25.306774 [info ] [MainThread]: 
+[0m10:11:25.306908 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:11:25.307008 [info ] [MainThread]: 
+[0m10:11:25.307195 [debug] [MainThread]: Acquiring new clickhouse connection 'master'
+[0m10:11:25.307525 [debug] [ThreadPool]: Acquiring new clickhouse connection 'list_'
+[0m10:11:25.310610 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:11:25.858104 [debug] [ThreadPool]: dbt_clickhouse adapter: On list_: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "connection_name": "list_"} */
+
+    select name from system.databases
+  ...
+[0m10:11:25.884605 [debug] [ThreadPool]: dbt_clickhouse adapter: SQL status: OK in 0.03 seconds
+[0m10:11:25.903019 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_, now list__ds_internal)
+[0m10:11:25.905830 [debug] [ThreadPool]: dbt_clickhouse adapter: On list__ds_internal: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "connection_name": "list__ds_internal"} */
+select
+      t.name as name,
+      t.database as schema,
+      multiIf(
+        engine in ('MaterializedView', 'View'), 'view',
+        engine = 'Dictionary', 'dictionary',
+        'table'
+      ) as type,
+      db.engine as db_engine,0 as is_on_cluster
+          from system.tables as t join system.databases as db on t.database = db.name
+        where schema = 'ds_internal'
+      
+
+  ...
+[0m10:11:25.929206 [debug] [ThreadPool]: dbt_clickhouse adapter: SQL status: OK in 0.02 seconds
+[0m10:11:25.930923 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c29bc799-1b30-4c4a-bda8-d567a29f2730', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1180462d0>]}
+[0m10:11:25.932208 [debug] [Thread-1 (]: Began running node model.dbt_mi.benchmark_new
+[0m10:11:25.932603 [info ] [Thread-1 (]: 1 of 1 START sql table model `ds_internal`.`benchmark_new` ..................... [RUN]
+[0m10:11:25.932927 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list__ds_internal, now model.dbt_mi.benchmark_new)
+[0m10:11:25.933165 [debug] [Thread-1 (]: Began compiling node model.dbt_mi.benchmark_new
+[0m10:11:25.939535 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_mi.benchmark_new"
+[0m10:11:25.940401 [debug] [Thread-1 (]: Began executing node model.dbt_mi.benchmark_new
+[0m10:11:25.970247 [debug] [Thread-1 (]: dbt_clickhouse adapter: On model.dbt_mi.benchmark_new: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "node_id": "model.dbt_mi.benchmark_new"} */
+
+            
+
+    
+        create table `ds_internal`.`benchmark_new__dbt_backup`
+        
+  
+        
+  engine = MergeTree()
+        
+      order by (tuple())
+        
+        
+        
+        
+                    -- end_of_sql
+                    SETTINGS  replicated_deduplication_window=0
+
+                    
+            empty
+          as (
+            
+
+WITH raw_data AS (
+SELECT
+    cm.geo as region,
+    cm.Country,
+    cm.industry as vertical,
+    toDate(toStartOfMonth(send_date)) as time_period,
+    v.campaign_type,
+    'Regular' as sto_type,
+    v.channel as channel_type,
+    sumIf(count, (event = 'message_send')) AS sends, 
+    sumIf(count, ((event = 'message_soft_bounce') OR (event = 'message_hard_bounce'))) AS bounces,
+    sumIf(count, (event = 'message_soft_bounce')) AS unique_soft_bounces,
+    sumIf(count, (event = 'message_hard_bounce')) AS unique_hard_bounces,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email')) AS unique_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_real_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_precached_opens,
+    sumIf(count, (event = 'message_click')) AS total_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email')) AS unique_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (NOT is_machine)) AS unique_human_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (is_machine)) AS unique_bot_clicks,
+    0 AS revenue,  
+    0 AS order_count,
+    0 as grow_views,
+    0 AS grow_conversion_count
+FROM `anx_stg1_mercury`.`msg_totals_bysenddate_v` v
+LEFT JOIN `ds_internal`.`customer_metadata` cm ON v.account_id = cm.pls_org_id
+--ds_internal.customer_metadata cm  ON v.account_id = cm.pls_org_id
+WHERE --domain = 'event.campaignactivity'
+ --and platform = 'msg:na'
+    --and v.account_id = '986'
+ --and v.send_date > '2025-01-01' AND '2025-01-31'  -- Filter by a relevant date range
+  (send_date >= '2025-09-01') AND (send_date < '2025-09-08')
+GROUP BY
+    cm.brand,
+    cm.geo,
+    cm.Country,
+    cm.industry,
+    toDate(toStartOfMonth(send_date)),
+    v.campaign_type,
+    v.channel 
+)
+
+SELECT * FROM raw_data
+          )
+        
+        ...
+[0m10:11:25.997854 [debug] [Thread-1 (]: dbt_clickhouse adapter: SQL status: OK in 0.03 seconds
+[0m10:11:26.005271 [debug] [Thread-1 (]: dbt_clickhouse adapter: On model.dbt_mi.benchmark_new: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "node_id": "model.dbt_mi.benchmark_new"} */
+
+    select name, type from system.columns where table = 'benchmark_new__dbt_backup'
+    
+      and database = 'ds_internal'
+    
+    order by position
+  ...
+[0m10:11:26.031740 [debug] [Thread-1 (]: dbt_clickhouse adapter: SQL status: OK in 0.03 seconds
+[0m10:11:26.034204 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_mi.benchmark_new"
+[0m10:11:26.035376 [debug] [Thread-1 (]: dbt_clickhouse adapter: On model.dbt_mi.benchmark_new: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "node_id": "model.dbt_mi.benchmark_new"} */
+
+  
+    
+    
+    
+        
+         
+
+
+        insert into `ds_internal`.`benchmark_new__dbt_backup`
+        ("region", "Country", "vertical", "time_period", "campaign_type", "sto_type", "channel_type", "sends", "bounces", "unique_soft_bounces", "unique_hard_bounces", "unique_opens", "unique_real_opens", "unique_precached_opens", "total_clicks", "unique_clicks", "unique_human_clicks", "unique_bot_clicks", "revenue", "order_count", "grow_views", "grow_conversion_count")
+
+WITH raw_data AS (
+SELECT
+    cm.geo as region,
+    cm.Country,
+    cm.industry as vertical,
+    toDate(toStartOfMonth(send_date)) as time_period,
+    v.campaign_type,
+    'Regular' as sto_type,
+    v.channel as channel_type,
+    sumIf(count, (event = 'message_send')) AS sends, 
+    sumIf(count, ((event = 'message_soft_bounce') OR (event = 'message_hard_bounce'))) AS bounces,
+    sumIf(count, (event = 'message_soft_bounce')) AS unique_soft_bounces,
+    sumIf(count, (event = 'message_hard_bounce')) AS unique_hard_bounces,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email')) AS unique_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_real_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_precached_opens,
+    sumIf(count, (event = 'message_click')) AS total_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email')) AS unique_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (NOT is_machine)) AS unique_human_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (is_machine)) AS unique_bot_clicks,
+    0 AS revenue,  
+    0 AS order_count,
+    0 as grow_views,
+    0 AS grow_conversion_count
+FROM `anx_stg1_mercury`.`msg_totals_bysenddate_v` v
+LEFT JOIN `ds_internal`.`customer_metadata` cm ON v.account_id = cm.pls_org_id
+--ds_internal.customer_metadata cm  ON v.account_id = cm.pls_org_id
+WHERE --domain = 'event.campaignactivity'
+ --and platform = 'msg:na'
+    --and v.account_id = '986'
+ --and v.send_date > '2025-01-01' AND '2025-01-31'  -- Filter by a relevant date range
+  (send_date >= '2025-09-01') AND (send_date < '2025-09-08')
+GROUP BY
+    cm.brand,
+    cm.geo,
+    cm.Country,
+    cm.industry,
+    toDate(toStartOfMonth(send_date)),
+    v.campaign_type,
+    v.channel 
+)
+
+SELECT * FROM raw_data
+  ...
+[0m10:11:29.375003 [debug] [Thread-1 (]: dbt_clickhouse adapter: SQL status: OK in 3.34 seconds
+[0m10:11:29.383032 [debug] [Thread-1 (]: dbt_clickhouse adapter: On model.dbt_mi.benchmark_new: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "node_id": "model.dbt_mi.benchmark_new"} */
+EXCHANGE TABLES `ds_internal`.`benchmark_new__dbt_backup` AND `ds_internal`.`benchmark_new` 
+  
+  ...
+[0m10:11:29.407020 [debug] [Thread-1 (]: dbt_clickhouse adapter: SQL status: OK in 0.02 seconds
+[0m10:11:29.425341 [debug] [Thread-1 (]: dbt_clickhouse adapter: On model.dbt_mi.benchmark_new: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "node_id": "model.dbt_mi.benchmark_new"} */
+drop table if exists `ds_internal`.`benchmark_new__dbt_backup` 
+  ...
+[0m10:11:29.535194 [debug] [Thread-1 (]: dbt_clickhouse adapter: SQL status: OK in 0.11 seconds
+[0m10:11:29.536984 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c29bc799-1b30-4c4a-bda8-d567a29f2730', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1077d4790>]}
+[0m10:11:29.537309 [info ] [Thread-1 (]: 1 of 1 OK created sql table model `ds_internal`.`benchmark_new` ................ [[32mOK[0m in 3.60s]
+[0m10:11:29.537565 [debug] [Thread-1 (]: Finished running node model.dbt_mi.benchmark_new
+[0m10:11:29.538171 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:11:29.538343 [debug] [MainThread]: Connection 'model.dbt_mi.benchmark_new' was left open.
+[0m10:11:29.538477 [debug] [MainThread]: On model.dbt_mi.benchmark_new: Close
+[0m10:11:29.538644 [info ] [MainThread]: 
+[0m10:11:29.538792 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 4.23 seconds (4.23s).
+[0m10:11:29.539063 [debug] [MainThread]: Command end result
+[0m10:11:29.552884 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/manifest.json
+[0m10:11:29.553990 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/semantic_manifest.json
+[0m10:11:29.556597 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/run_results.json
+[0m10:11:29.556726 [info ] [MainThread]: 
+[0m10:11:29.556885 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:11:29.556993 [info ] [MainThread]: 
+[0m10:11:29.557110 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m10:11:29.558975 [debug] [MainThread]: Resource report: {"command_name": "build", "command_success": true, "command_wall_clock_time": 4.651485, "process_in_blocks": "0", "process_kernel_time": 0.216601, "process_mem_max_rss": "135249920", "process_out_blocks": "0", "process_user_time": 0.865094}
+[0m10:11:29.559196 [debug] [MainThread]: Command `dbt build` succeeded at 10:11:29.559154 after 4.65 seconds
+[0m10:11:29.559368 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1064593d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106458d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100dee410>]}
+[0m10:11:29.559526 [debug] [MainThread]: Flushing usage events
+[0m10:11:29.653853 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:48:31.027329 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b1aa90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ab79d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b1a210>]}
+
+
+============================== 12:48:31.029898 | db17a21c-31a6-415f-84aa-eef9c9d00d0e ==============================
+[0m12:48:31.029898 [info ] [MainThread]: Running with dbt=1.9.0
+[0m12:48:31.030187 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark', 'debug': 'False', 'warn_error': 'None', 'log_path': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt build -s benchmark_new --vars {"org_id": "190","start_date": "2025-09-01", "end_date":"2025-09-08"}', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:48:31.110781 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'db17a21c-31a6-415f-84aa-eef9c9d00d0e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106632dd0>]}
+[0m12:48:31.129726 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'db17a21c-31a6-415f-84aa-eef9c9d00d0e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105eb0750>]}
+[0m12:48:31.130382 [info ] [MainThread]: Registered adapter: clickhouse=1.9.2
+[0m12:48:31.181369 [debug] [MainThread]: checksum: 074a73aba3e919a983f531e4e8e5da33d7b1baee5d36a3e533fbde2f736e6acc, vars: {'end_date': '2025-09-08', 'org_id': '190', 'start_date': '2025-09-01'}, profile: , target: , version: 1.9.0
+[0m12:48:31.263273 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:48:31.263452 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:48:31.278542 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'db17a21c-31a6-415f-84aa-eef9c9d00d0e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f88f90>]}
+[0m12:48:31.309426 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/manifest.json
+[0m12:48:31.317199 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/semantic_manifest.json
+[0m12:48:31.334993 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'db17a21c-31a6-415f-84aa-eef9c9d00d0e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072c3fd0>]}
+[0m12:48:31.335218 [info ] [MainThread]: Found 7 models, 6 data tests, 9 sources, 594 macros
+[0m12:48:31.335899 [info ] [MainThread]: 
+[0m12:48:31.336033 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:48:31.336132 [info ] [MainThread]: 
+[0m12:48:31.336325 [debug] [MainThread]: Acquiring new clickhouse connection 'master'
+[0m12:48:31.336674 [debug] [ThreadPool]: Acquiring new clickhouse connection 'list_'
+[0m12:48:31.340455 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:48:31.877026 [debug] [ThreadPool]: dbt_clickhouse adapter: On list_: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "connection_name": "list_"} */
+
+    select name from system.databases
+  ...
+[0m12:48:31.897862 [debug] [ThreadPool]: dbt_clickhouse adapter: SQL status: OK in 0.02 seconds
+[0m12:48:31.922387 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_, now list__ds_internal)
+[0m12:48:31.926694 [debug] [ThreadPool]: dbt_clickhouse adapter: On list__ds_internal: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "connection_name": "list__ds_internal"} */
+select
+      t.name as name,
+      t.database as schema,
+      multiIf(
+        engine in ('MaterializedView', 'View'), 'view',
+        engine = 'Dictionary', 'dictionary',
+        'table'
+      ) as type,
+      db.engine as db_engine,0 as is_on_cluster
+          from system.tables as t join system.databases as db on t.database = db.name
+        where schema = 'ds_internal'
+      
+
+  ...
+[0m12:48:31.949317 [debug] [ThreadPool]: dbt_clickhouse adapter: SQL status: OK in 0.02 seconds
+[0m12:48:31.950933 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'db17a21c-31a6-415f-84aa-eef9c9d00d0e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e3e490>]}
+[0m12:48:31.952331 [debug] [Thread-1 (]: Began running node model.dbt_mi.benchmark_new
+[0m12:48:31.952699 [info ] [Thread-1 (]: 1 of 1 START sql table model `ds_internal`.`benchmark_new` ..................... [RUN]
+[0m12:48:31.953013 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list__ds_internal, now model.dbt_mi.benchmark_new)
+[0m12:48:31.953221 [debug] [Thread-1 (]: Began compiling node model.dbt_mi.benchmark_new
+[0m12:48:31.959369 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_mi.benchmark_new"
+[0m12:48:31.960432 [debug] [Thread-1 (]: Began executing node model.dbt_mi.benchmark_new
+[0m12:48:32.012338 [debug] [Thread-1 (]: dbt_clickhouse adapter: On model.dbt_mi.benchmark_new: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "node_id": "model.dbt_mi.benchmark_new"} */
+
+            
+
+    
+        create table `ds_internal`.`benchmark_new__dbt_backup`
+        
+  
+        
+  engine = MergeTree()
+        
+      order by (tuple())
+        
+        
+        
+        
+                    -- end_of_sql
+                    SETTINGS  replicated_deduplication_window=0
+
+                    
+            empty
+          as (
+            
+
+WITH raw_data AS (
+SELECT
+    cm.geo as region,
+    cm.Country,
+    cm.industry as vertical,
+    toDate(toStartOfMonth(send_date)) as time_period,
+    v.campaign_type,
+    'Regular' as sto_type,
+    v.channel as channel_type,
+    sumIf(count, (event = 'message_send')) AS sends, 
+    sumIf(count, ((event = 'message_soft_bounce') OR (event = 'message_hard_bounce'))) AS bounces,
+    sumIf(count, (event = 'message_soft_bounce')) AS unique_soft_bounces,
+    sumIf(count, (event = 'message_hard_bounce')) AS unique_hard_bounces,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email')) AS unique_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_real_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_precached_opens,
+    sumIf(count, (event = 'message_click')) AS total_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email')) AS unique_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (NOT is_machine)) AS unique_human_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (is_machine)) AS unique_bot_clicks,
+    0 AS revenue,  
+    0 AS order_count,
+    0 as grow_views,
+    0 AS grow_conversion_count
+FROM `anx_stg1_mercury`.`msg_totals_bysenddate_v` v
+LEFT JOIN `ds_internal`.`customer_metadata` cm ON v.account_id = cm.pls_org_id
+--ds_internal.customer_metadata cm  ON v.account_id = cm.pls_org_id
+WHERE --domain = 'event.campaignactivity'
+ --and platform = 'msg:na'
+    --and v.account_id = '986'
+ --and v.send_date > '2025-01-01' AND '2025-01-31'  -- Filter by a relevant date range
+  (send_date >= '2025-09-01') AND (send_date < '2025-09-08')
+GROUP BY
+    cm.brand,
+    cm.geo,
+    cm.Country,
+    cm.industry,
+    toDate(toStartOfMonth(send_date)),
+    v.campaign_type,
+    v.channel 
+)
+
+SELECT * FROM raw_data
+          )
+        
+        ...
+[0m12:48:32.049092 [debug] [Thread-1 (]: dbt_clickhouse adapter: SQL status: OK in 0.04 seconds
+[0m12:48:32.056004 [debug] [Thread-1 (]: dbt_clickhouse adapter: On model.dbt_mi.benchmark_new: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "node_id": "model.dbt_mi.benchmark_new"} */
+
+    select name, type from system.columns where table = 'benchmark_new__dbt_backup'
+    
+      and database = 'ds_internal'
+    
+    order by position
+  ...
+[0m12:48:32.086776 [debug] [Thread-1 (]: dbt_clickhouse adapter: SQL status: OK in 0.03 seconds
+[0m12:48:32.089148 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_mi.benchmark_new"
+[0m12:48:32.090861 [debug] [Thread-1 (]: dbt_clickhouse adapter: On model.dbt_mi.benchmark_new: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "node_id": "model.dbt_mi.benchmark_new"} */
+
+  
+    
+    
+    
+        
+         
+
+
+        insert into `ds_internal`.`benchmark_new__dbt_backup`
+        ("region", "Country", "vertical", "time_period", "campaign_type", "sto_type", "channel_type", "sends", "bounces", "unique_soft_bounces", "unique_hard_bounces", "unique_opens", "unique_real_opens", "unique_precached_opens", "total_clicks", "unique_clicks", "unique_human_clicks", "unique_bot_clicks", "revenue", "order_count", "grow_views", "grow_conversion_count")
+
+WITH raw_data AS (
+SELECT
+    cm.geo as region,
+    cm.Country,
+    cm.industry as vertical,
+    toDate(toStartOfMonth(send_date)) as time_period,
+    v.campaign_type,
+    'Regular' as sto_type,
+    v.channel as channel_type,
+    sumIf(count, (event = 'message_send')) AS sends, 
+    sumIf(count, ((event = 'message_soft_bounce') OR (event = 'message_hard_bounce'))) AS bounces,
+    sumIf(count, (event = 'message_soft_bounce')) AS unique_soft_bounces,
+    sumIf(count, (event = 'message_hard_bounce')) AS unique_hard_bounces,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email')) AS unique_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_real_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_precached_opens,
+    sumIf(count, (event = 'message_click')) AS total_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email')) AS unique_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (NOT is_machine)) AS unique_human_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (is_machine)) AS unique_bot_clicks,
+    0 AS revenue,  
+    0 AS order_count,
+    0 as grow_views,
+    0 AS grow_conversion_count
+FROM `anx_stg1_mercury`.`msg_totals_bysenddate_v` v
+LEFT JOIN `ds_internal`.`customer_metadata` cm ON v.account_id = cm.pls_org_id
+--ds_internal.customer_metadata cm  ON v.account_id = cm.pls_org_id
+WHERE --domain = 'event.campaignactivity'
+ --and platform = 'msg:na'
+    --and v.account_id = '986'
+ --and v.send_date > '2025-01-01' AND '2025-01-31'  -- Filter by a relevant date range
+  (send_date >= '2025-09-01') AND (send_date < '2025-09-08')
+GROUP BY
+    cm.brand,
+    cm.geo,
+    cm.Country,
+    cm.industry,
+    toDate(toStartOfMonth(send_date)),
+    v.campaign_type,
+    v.channel 
+)
+
+SELECT * FROM raw_data
+  ...
+[0m12:48:35.447544 [debug] [Thread-1 (]: dbt_clickhouse adapter: SQL status: OK in 3.36 seconds
+[0m12:48:35.453186 [debug] [Thread-1 (]: dbt_clickhouse adapter: On model.dbt_mi.benchmark_new: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "node_id": "model.dbt_mi.benchmark_new"} */
+EXCHANGE TABLES `ds_internal`.`benchmark_new__dbt_backup` AND `ds_internal`.`benchmark_new` 
+  
+  ...
+[0m12:48:35.475116 [debug] [Thread-1 (]: dbt_clickhouse adapter: SQL status: OK in 0.02 seconds
+[0m12:48:35.493986 [debug] [Thread-1 (]: dbt_clickhouse adapter: On model.dbt_mi.benchmark_new: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "node_id": "model.dbt_mi.benchmark_new"} */
+drop table if exists `ds_internal`.`benchmark_new__dbt_backup` 
+  ...
+[0m12:48:35.514067 [debug] [Thread-1 (]: dbt_clickhouse adapter: SQL status: OK in 0.02 seconds
+[0m12:48:35.516320 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'db17a21c-31a6-415f-84aa-eef9c9d00d0e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1044021d0>]}
+[0m12:48:35.516672 [info ] [Thread-1 (]: 1 of 1 OK created sql table model `ds_internal`.`benchmark_new` ................ [[32mOK[0m in 3.56s]
+[0m12:48:35.517100 [debug] [Thread-1 (]: Finished running node model.dbt_mi.benchmark_new
+[0m12:48:35.518102 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:48:35.518273 [debug] [MainThread]: Connection 'model.dbt_mi.benchmark_new' was left open.
+[0m12:48:35.518407 [debug] [MainThread]: On model.dbt_mi.benchmark_new: Close
+[0m12:48:35.518584 [info ] [MainThread]: 
+[0m12:48:35.518795 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 4.18 seconds (4.18s).
+[0m12:48:35.519177 [debug] [MainThread]: Command end result
+[0m12:48:35.535618 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/manifest.json
+[0m12:48:35.536960 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/semantic_manifest.json
+[0m12:48:35.540432 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/run_results.json
+[0m12:48:35.540600 [info ] [MainThread]: 
+[0m12:48:35.540794 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m12:48:35.540926 [info ] [MainThread]: 
+[0m12:48:35.541068 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m12:48:35.552499 [debug] [MainThread]: Resource report: {"command_name": "build", "command_success": true, "command_wall_clock_time": 4.5679593, "process_in_blocks": "0", "process_kernel_time": 0.278681, "process_mem_max_rss": "129613824", "process_out_blocks": "0", "process_user_time": 0.867749}
+[0m12:48:35.552806 [debug] [MainThread]: Command `dbt build` succeeded at 12:48:35.552755 after 4.57 seconds
+[0m12:48:35.553006 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105cf4850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1026fa3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1027b85d0>]}
+[0m12:48:35.553213 [debug] [MainThread]: Flushing usage events
+[0m12:48:35.632026 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:07:18.507579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1102fb0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1102ef750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110143050>]}
+
+
+============================== 13:07:18.510150 | e5737887-c908-4f75-bfd4-4f6cc2497fc6 ==============================
+[0m13:07:18.510150 [info ] [MainThread]: Running with dbt=1.9.0
+[0m13:07:18.510425 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt compile -s benchmark_new --vars {"org_id": "190","start_date": "2025-09-01", "end_date":"2025-09-08"}', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:07:18.591086 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e5737887-c908-4f75-bfd4-4f6cc2497fc6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110148f50>]}
+[0m13:07:18.608528 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e5737887-c908-4f75-bfd4-4f6cc2497fc6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107eb3e50>]}
+[0m13:07:18.609069 [info ] [MainThread]: Registered adapter: clickhouse=1.9.2
+[0m13:07:18.649350 [debug] [MainThread]: checksum: 074a73aba3e919a983f531e4e8e5da33d7b1baee5d36a3e533fbde2f736e6acc, vars: {'end_date': '2025-09-08', 'org_id': '190', 'start_date': '2025-09-01'}, profile: , target: , version: 1.9.0
+[0m13:07:18.732108 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:07:18.732304 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:07:18.747704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e5737887-c908-4f75-bfd4-4f6cc2497fc6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1108c1a50>]}
+[0m13:07:18.778687 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/manifest.json
+[0m13:07:18.785916 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/semantic_manifest.json
+[0m13:07:18.797758 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e5737887-c908-4f75-bfd4-4f6cc2497fc6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1107791d0>]}
+[0m13:07:18.797947 [info ] [MainThread]: Found 7 models, 6 data tests, 9 sources, 594 macros
+[0m13:07:18.798075 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e5737887-c908-4f75-bfd4-4f6cc2497fc6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c8c810>]}
+[0m13:07:18.798677 [info ] [MainThread]: 
+[0m13:07:18.798825 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:07:18.798919 [info ] [MainThread]: 
+[0m13:07:18.799104 [debug] [MainThread]: Acquiring new clickhouse connection 'master'
+[0m13:07:18.801056 [debug] [ThreadPool]: Acquiring new clickhouse connection 'list__ds_internal'
+[0m13:07:18.805320 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:07:19.293891 [debug] [ThreadPool]: dbt_clickhouse adapter: On list__ds_internal: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "connection_name": "list__ds_internal"} */
+select
+      t.name as name,
+      t.database as schema,
+      multiIf(
+        engine in ('MaterializedView', 'View'), 'view',
+        engine = 'Dictionary', 'dictionary',
+        'table'
+      ) as type,
+      db.engine as db_engine,0 as is_on_cluster
+          from system.tables as t join system.databases as db on t.database = db.name
+        where schema = 'ds_internal'
+      
+
+  ...
+[0m13:07:19.321252 [debug] [ThreadPool]: dbt_clickhouse adapter: SQL status: OK in 0.03 seconds
+[0m13:07:19.342302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e5737887-c908-4f75-bfd4-4f6cc2497fc6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071346d0>]}
+[0m13:07:19.344254 [debug] [Thread-1 (]: Began running node model.dbt_mi.benchmark_new
+[0m13:07:19.344586 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list__ds_internal, now model.dbt_mi.benchmark_new)
+[0m13:07:19.344822 [debug] [Thread-1 (]: Began compiling node model.dbt_mi.benchmark_new
+[0m13:07:19.350390 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_mi.benchmark_new"
+[0m13:07:19.351031 [debug] [Thread-1 (]: Began executing node model.dbt_mi.benchmark_new
+[0m13:07:19.351375 [debug] [Thread-1 (]: Finished running node model.dbt_mi.benchmark_new
+[0m13:07:19.351875 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:07:19.352032 [debug] [MainThread]: Connection 'model.dbt_mi.benchmark_new' was left open.
+[0m13:07:19.352179 [debug] [MainThread]: On model.dbt_mi.benchmark_new: Close
+[0m13:07:19.352503 [debug] [MainThread]: Command end result
+[0m13:07:19.390154 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/manifest.json
+[0m13:07:19.391156 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/semantic_manifest.json
+[0m13:07:19.393867 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/run_results.json
+[0m13:07:19.394050 [info ] [MainThread]: Compiled node 'benchmark_new' is:
+
+
+WITH raw_data AS (
+SELECT
+    cm.geo as region,
+    cm.Country,
+    cm.industry as vertical,
+    toDate(toStartOfMonth(send_date)) as time_period,
+    v.campaign_type,
+    'Regular' as sto_type,
+    v.channel as channel_type,
+    sumIf(count, (event = 'message_send')) AS sends, 
+    sumIf(count, ((event = 'message_soft_bounce') OR (event = 'message_hard_bounce'))) AS bounces,
+    sumIf(count, (event = 'message_soft_bounce')) AS unique_soft_bounces,
+    sumIf(count, (event = 'message_hard_bounce')) AS unique_hard_bounces,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email')) AS unique_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_real_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_precached_opens,
+    sumIf(count, (event = 'message_click')) AS total_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email')) AS unique_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (NOT is_machine)) AS unique_human_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (is_machine)) AS unique_bot_clicks,
+    0 AS revenue,  
+    0 AS order_count,
+    0 as grow_views,
+    0 AS grow_conversion_count
+FROM `anx_stg1_mercury`.`msg_totals_bysenddate_v` v
+LEFT JOIN `ds_internal`.`customer_metadata` cm ON v.account_id = cm.pls_org_id
+--ds_internal.customer_metadata cm  ON v.account_id = cm.pls_org_id
+WHERE --domain = 'event.campaignactivity'
+ --and platform = 'msg:na'
+    --and v.account_id = '986'
+ --and v.send_date > '2025-01-01' AND '2025-01-31'  -- Filter by a relevant date range
+  (send_date >= '2025-09-01') AND (send_date < '2025-09-08')
+GROUP BY
+    cm.brand,
+    cm.geo,
+    cm.Country,
+    cm.industry,
+    toDate(toStartOfMonth(send_date)),
+    v.campaign_type,
+    v.channel 
+)
+
+SELECT * FROM raw_data
+[0m13:07:19.396051 [debug] [MainThread]: Resource report: {"command_name": "compile", "command_success": true, "command_wall_clock_time": 0.92988753, "process_in_blocks": "0", "process_kernel_time": 0.206168, "process_mem_max_rss": "124796928", "process_out_blocks": "0", "process_user_time": 0.717795}
+[0m13:07:19.396262 [debug] [MainThread]: Command `dbt compile` succeeded at 13:07:19.396224 after 0.93 seconds
+[0m13:07:19.396417 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1010b2410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1011704d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x101170310>]}
+[0m13:07:19.396570 [debug] [MainThread]: Flushing usage events
+[0m13:07:19.520010 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:08:03.252395 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120afbed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120aef450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120b5a210>]}
+
+
+============================== 13:08:03.254719 | 0301bb3f-d418-4575-b00b-003ad6927eb8 ==============================
+[0m13:08:03.254719 [info ] [MainThread]: Running with dbt=1.9.0
+[0m13:08:03.254982 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/logs', 'version_check': 'True', 'profiles_dir': '/Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt compile -s benchmark_new --vars {"org_id": "190","start_date": "2025-09-01", "end_date":"2025-09-08"}', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:08:03.339650 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0301bb3f-d418-4575-b00b-003ad6927eb8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120b52850>]}
+[0m13:08:03.359733 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0301bb3f-d418-4575-b00b-003ad6927eb8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cb3910>]}
+[0m13:08:03.361264 [info ] [MainThread]: Registered adapter: clickhouse=1.9.2
+[0m13:08:03.401788 [debug] [MainThread]: checksum: 074a73aba3e919a983f531e4e8e5da33d7b1baee5d36a3e533fbde2f736e6acc, vars: {'end_date': '2025-09-08', 'org_id': '190', 'start_date': '2025-09-01'}, profile: , target: , version: 1.9.0
+[0m13:08:03.480853 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m13:08:03.481207 [debug] [MainThread]: Partial parsing: updated file: dbt_mi://models/benchmark_new/benchmark_new.sql
+[0m13:08:03.566611 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0301bb3f-d418-4575-b00b-003ad6927eb8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120d05610>]}
+[0m13:08:03.596570 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/manifest.json
+[0m13:08:03.603574 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/semantic_manifest.json
+[0m13:08:03.613865 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0301bb3f-d418-4575-b00b-003ad6927eb8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x124f1bf50>]}
+[0m13:08:03.614061 [info ] [MainThread]: Found 7 models, 6 data tests, 9 sources, 594 macros
+[0m13:08:03.614196 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0301bb3f-d418-4575-b00b-003ad6927eb8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x124abd090>]}
+[0m13:08:03.614782 [info ] [MainThread]: 
+[0m13:08:03.614919 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:08:03.615016 [info ] [MainThread]: 
+[0m13:08:03.615189 [debug] [MainThread]: Acquiring new clickhouse connection 'master'
+[0m13:08:03.617250 [debug] [ThreadPool]: Acquiring new clickhouse connection 'list__ds_internal'
+[0m13:08:03.621158 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:08:03.996308 [debug] [ThreadPool]: dbt_clickhouse adapter: On list__ds_internal: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "dbt_mi", "target_name": "dev", "connection_name": "list__ds_internal"} */
+select
+      t.name as name,
+      t.database as schema,
+      multiIf(
+        engine in ('MaterializedView', 'View'), 'view',
+        engine = 'Dictionary', 'dictionary',
+        'table'
+      ) as type,
+      db.engine as db_engine,0 as is_on_cluster
+          from system.tables as t join system.databases as db on t.database = db.name
+        where schema = 'ds_internal'
+      
+
+  ...
+[0m13:08:04.030598 [debug] [ThreadPool]: dbt_clickhouse adapter: SQL status: OK in 0.03 seconds
+[0m13:08:04.092386 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0301bb3f-d418-4575-b00b-003ad6927eb8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x124ad4c90>]}
+[0m13:08:04.093631 [debug] [Thread-1 (]: Began running node model.dbt_mi.benchmark_new
+[0m13:08:04.093813 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list__ds_internal, now model.dbt_mi.benchmark_new)
+[0m13:08:04.093953 [debug] [Thread-1 (]: Began compiling node model.dbt_mi.benchmark_new
+[0m13:08:04.097790 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_mi.benchmark_new"
+[0m13:08:04.098166 [debug] [Thread-1 (]: Began executing node model.dbt_mi.benchmark_new
+[0m13:08:04.098407 [debug] [Thread-1 (]: Finished running node model.dbt_mi.benchmark_new
+[0m13:08:04.098781 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:08:04.098931 [debug] [MainThread]: Connection 'model.dbt_mi.benchmark_new' was left open.
+[0m13:08:04.099051 [debug] [MainThread]: On model.dbt_mi.benchmark_new: Close
+[0m13:08:04.099305 [debug] [MainThread]: Command end result
+[0m13:08:04.110668 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/manifest.json
+[0m13:08:04.111518 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/semantic_manifest.json
+[0m13:08:04.113960 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/Santosh.Nayak/Documents/custom-analytics/dbt_benchmark/target/run_results.json
+[0m13:08:04.114116 [info ] [MainThread]: Compiled node 'benchmark_new' is:
+
+
+WITH raw_data AS (
+SELECT
+    cm.geo as region,
+    cm.Country,
+    cm.industry as vertical,
+    toDate(toStartOfMonth(send_date)) as time_period,
+    v.campaign_type,
+    'Regular' as sto_type,
+    v.channel as channel_type,
+    sumIf(count, (event = 'message_send')) AS sends, 
+    sumIf(count, ((event = 'message_soft_bounce') OR (event = 'message_hard_bounce'))) AS bounces,
+    sumIf(count, (event = 'message_soft_bounce')) AS unique_soft_bounces,
+    sumIf(count, (event = 'message_hard_bounce')) AS unique_hard_bounces,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email')) AS unique_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_real_opens,
+    uniqMergeIf(member_state, (event = 'message_open') AND (channel = 'email') AND NOT is_machine) AS unique_precached_opens,
+    sumIf(count, (event = 'message_click')) AS total_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email')) AS unique_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (NOT is_machine)) AS unique_human_clicks,
+    uniqMergeIf(member_state, (event = 'message_click') AND (channel = 'email') AND (is_machine)) AS unique_bot_clicks,
+    0 AS revenue,  
+    0 AS order_count,
+    0 as grow_views,
+    0 AS grow_conversion_count
+FROM `anx_stg1_mercury`.`msg_totals_bysenddate_v` v
+LEFT JOIN `ds_internal`.`customer_metadata` cm ON v.account_id = cm.pls_org_id
+WHERE domain = 'event.campaignactivity'
+and platform = 'msg:na'
+and (send_date >= '2025-09-01') AND (send_date < '2025-09-08')
+GROUP BY
+    cm.brand,
+    cm.geo,
+    cm.Country,
+    cm.industry,
+    toDate(toStartOfMonth(send_date)),
+    v.campaign_type,
+    v.channel 
+)
+
+SELECT * FROM raw_data
+[0m13:08:04.115977 [debug] [MainThread]: Resource report: {"command_name": "compile", "command_success": true, "command_wall_clock_time": 0.90601987, "process_in_blocks": "0", "process_kernel_time": 0.217567, "process_mem_max_rss": "133611520", "process_out_blocks": "0", "process_user_time": 0.798507}
+[0m13:08:04.116142 [debug] [MainThread]: Command `dbt compile` succeeded at 13:08:04.116111 after 0.91 seconds
+[0m13:08:04.116276 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120b58dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10252a410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120949210>]}
+[0m13:08:04.116417 [debug] [MainThread]: Flushing usage events
+[0m13:08:04.189838 [debug] [MainThread]: An error was encountered while trying to flush usage events
